@@ -39,15 +39,23 @@ This project aims to simulate and implement the MedRAG framework to:
 ## 📂 Project Structure
 intially idea:
 MedRAG_PS/
-├── data/
-├── retriever/
-├── kg/
-├── generator/
-├── evaluation/
-├── frontend/ (optional React UI)
-├── app.py (main API)
-├── README.md
-└── requirements.txt
+├── data/                 # Patient records (DDXPlus, mock datasets)
+├── retriever/            # FAISS-based retrieval system
+│   ├── build_index.py
+│   └── search.py
+├── kg/                   # Knowledge Graph construction and query
+│   ├── build_graph.py
+│   └── query_graph.py
+├── generator/            # Prompt generation and LLM response handling
+│   ├── prompt_builder.py
+│   └── llm_response.py
+├── evaluation/           # Accuracy, BLEU, ROUGE, L3-level checks
+│   └── evaluate.py
+├── frontend/             # (Optional) React UI for doctors/users
+│   └── [React app files]
+├── app.py                # Main API to connect all components
+├── requirements.txt      # Python dependencies
+└── README.md             # Project description and setup
 
 ## 📄 Reference
 
