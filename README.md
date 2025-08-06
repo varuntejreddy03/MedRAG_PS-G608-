@@ -38,6 +38,8 @@ This project aims to simulate and implement the MedRAG framework to:
 
 ## 📂 Project Structure
 intially idea:
+
+
 <img width="395" height="336" alt="{8FCA02E8-C0DB-4676-82E8-DED1F9CD0B13}" src="https://github.com/user-attachments/assets/12791438-59ee-4c05-8767-4137c95ae580" />
 
 
